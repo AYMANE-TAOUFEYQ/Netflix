@@ -1,0 +1,73 @@
+html {
+  font-size: 62.5%;
+  font-size: 0.625em
+}
+
+body,html {
+  overflow-x: hidden
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: Helvetica Neue,sans-serif;
+  font-size: 15px;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #3a3a3a;
+}
+
+body,body *,body :after,body :before {
+  box-sizing: border-box
+}
+
+body.affix {
+  position: relative
+}
+
+dd,div,dl,dt,li,ol,p,ul {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+::-moz-selection {
+  background: #3a3a3a;
+  text-shadow: none;
+  color: #fff
+}
+
+::selection {
+  background: #3a3a3a;
+  text-shadow: none;
+  color: #fff
+}
+body {
+  background: #000;
+}
+#root {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+a , a:focus , a:hover {
+  text-decoration: none;
+  color: #3a3a3a;
+}
+
+button {
+  display: inline-block;
+    color: #3a3a3a;
+    padding: 0.25em 0.8em;
+    line-height: 1.8;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+    font-size: 1.5rem;
+    vertical-align: middle;
+    border-radius: 3px;
+    cursor: pointer;
+    -webkit-transition: all .2s ease-out 0s;
+    transition: all .2s ease-out 0s;
+}

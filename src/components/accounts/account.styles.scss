@@ -1,0 +1,17 @@
+.post {
+    &-body {
+        &--title {
+            color: #ece1e1;
+        }
+
+        &-b {
+            background: #1e1c1d;
+            border-radius: 10px;
+            margin: 5px;
+            overflow-y: hidden;
+            padding: 15px;
+            color: #ece1e1;
+        }
+    }
+}
+
